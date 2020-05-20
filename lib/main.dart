@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
       Mrzflutterplugin.registerWithLicenceKey(
           "android_licence_key");
     } else if (Platform.isIOS) {
-      Mrzflutterplugin.registerWithLicenceKey("C500C89F1E88DC48B05981B3CB55CEB287CB42CEC4886223D30555F0DE9B7C036E6C0BB2563CB6B933376B3590FA5FA52B5AAC55F8FA6F90777EAC1474E360655681C3AA91770BEBC3E2C524BBFB05E8");
+      Mrzflutterplugin.registerWithLicenceKey(iOS_licence_key);
     }
   }
 
